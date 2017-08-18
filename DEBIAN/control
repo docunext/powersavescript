@@ -1,0 +1,9 @@
+
+Package: powersavescript
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: i386
+Maintainer: Albert Lash <albert.lash@gmail.com>
+Description: Powersavescript
+ This is some basic output from powertop.
