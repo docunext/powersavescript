@@ -1,0 +1,10 @@
+[Unit]
+Description=Custom powersave scripts
+
+[Service]
+RemainAfterExit=no
+Environment="TERM=dumb"
+ExecStart=/usr/local/bin/powersavescript.sh
+
+[Install]
+WantedBy=multi-user.target
